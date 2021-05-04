@@ -291,5 +291,5 @@ Project file tree:
         └── textEditor.cpp  
 `
 test
-`        ├── tabWidget.cpp  `
+         ├── tabWidget.cpp  
 `        └── textEditor.cpp `
