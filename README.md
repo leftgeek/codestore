@@ -1,6 +1,6 @@
-CodeStore是一个集成了代码的编辑,分类管理以及用户代码共享的软件
-采用QT C++编写,用Qt Creator可打开项目
-但是不同用户代码的共享不是通过网络实现,而是通过本地数据库来实现的
+CodeStore是一个集成了代码的编辑,分类管理以及用户代码共享的软件  
+采用QT C++编写,用Qt Creator可打开项目  
+但是不同用户代码的共享不是通过网络实现,而是通过本地数据库来实现的  
 
 Project file tree:
 
@@ -97,7 +97,7 @@ Project file tree:
 │   │   ├── jsp.xml  
 │   │   ├── katetemplate.xml  
 │   │   ├── kbasic.xml  
-│   │   ├── language.dtd
+│   │   ├── language.dtd  
 │   │   ├── latex.xml  
 │   │   ├── ldif.xml  
 │   │   ├── lex.xml  
@@ -169,7 +169,7 @@ Project file tree:
 │   │   ├── sql-postgresql.xml  
 │   │   ├── sql.xml  
 │   │   ├── stata.xml  
-│   │   ├── syntax.template
+│   │   ├── syntax.template  
 │   │   ├── systemc.xml  
 │   │   ├── tcl.xml  
 │   │   ├── texinfo.xml  
@@ -204,7 +204,7 @@ Project file tree:
 │   ├── developWidget.h  
 │   ├── findPasswordWidget.h  
 │   ├── helpWidget.h  
-│   ├── highlighter.h
+│   ├── highlighter.h  
 │   ├── importFileWidget.h  
 │   ├── loginWidget.h  
 │   ├── logTree.h  
@@ -215,7 +215,7 @@ Project file tree:
 │   ├── newsWidget.h  
 │   ├── personalCenterWidget.h  
 │   ├── propertyWidget.h  
-│   ├── recentFile.h
+│   ├── recentFile.h  
 │   ├── registerWidget.h  
 │   ├── replaceWidget.h  
 │   ├── searchWidget.h  
