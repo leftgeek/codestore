@@ -1,8 +1,8 @@
 CodeStore是一个集成了代码的编辑,分类管理以及用户代码共享的软件  
 采用QT C++编写,用Qt Creator可打开项目  
 但是不同用户代码的共享不是通过网络实现,而是通过本地数据库来实现的  
-`
-Project file tree:
+
+`Project file tree:`
 
 ├── category.xml  
 ├── CodeStore.pro  
@@ -289,7 +289,4 @@ Project file tree:
         ├── startPageWidget.cpp  
         ├── tabWidget.cpp  
         └── textEditor.cpp  
-`
-test
-         ├── tabWidget.cpp  
-`        └── textEditor.cpp `
+`end`
