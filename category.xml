@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<category category_id="0"> 
+    <name>categories</name>
+    <categories>
+        <category category_id="1"> 
+    		<name>name2</name> 
+            <categories>
+                <category category_id="2"> 
+            		<name>name4</name> 
+	            </category>
+            </categories>
+            <codes>
+                <code code_id="1">
+                    <name>name3</name>
+                    <description>description3</description>
+                </code>
+            </codes>
+	    </category>
+        <category category_id="3"> 
+    		<name>name3</name> 
+            <categories></categories>
+            <codes></codes>
+	    </category>
+    </categories>
+    <codes>
+        <code code_id="2">
+            <name>name1</name>
+            <description>description1</description>
+        </code>
+        <code code_id="3">
+            <name>name2</name>
+            <description>description2</description>
+        </code>
+    </codes>
+</category>

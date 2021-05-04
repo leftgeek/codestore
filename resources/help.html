@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>帮助文档</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<style type="text/css">
+		#welcome{
+		font-size:40px;
+		text-align:center;
+		font-weight:bold;
+		padding:10px 0px 10px 0px;
+		color:teal;
+		}
+.helptopic {
+	font-size: 20px;
+	font-weight: bold;
+	color: #444444;
+	background: url('../images/tag.png') no-repeat;
+	padding: 0px 0px 0px 25px;
+	height: 25px;
+	border-bottom: 1px solid silver;
+}
+
+.stopic {
+	font-size: 15px;
+	color: #3399CC;
+	background: url('../images/stag.png') no-repeat;
+	padding: 0px 0px 0px 20px;
+	margin: 2px 0px 2px 20px;
+}
+.stopicinfo{
+	font-size: 15px;
+	color: #444444;
+	font-style: italic;
+	padding: 0px 0px 0px 0px;
+	margin: 2px 0px 2px 30px;
+}
+</style>
+	</head>
+	<body>
+		<div>
+			当前位置:管理系统帮助
+		</div>
+		<a name="top"></a>
+		<div>
+			<div id="welcome">
+				欢迎使用后台管理系统
+			</div>
+		</div>
+
+		<a name="user"></a>
+		<div>
+			<div class="helptopic">
+				用户管理系统
+			</div>
+			<div>
+				<p class="stopic">用户组管理</p>
+				<p class="stopicinfo">
+					用户组是用来管理用户权限的，不同用户组拥有不同的名称与权限，一个用户组里用户的权限即为他所在组的权限，用户不能跨权限管理
+				</p>
+				<ul>
+					<li>
+						用户组具有的属性有：编号，组名以及各种权限
+					</li>
+					<li>
+						用户组支持的功能包括：对用户组的添加，修改，删除
+					</li>
+					<li>
+						相应权限值"true"代表拥有该权限，"false"代表无该权限
+					</li>
+				</ul>
+			</div>
+			<div>
+				<p class="stopic">
+					用户管理
+				</p>
+				<p class="stopicinfo">
+					用户管理是用来管理用户的，这些用户即系统管理员
+				</p>
+				<ul>
+					<li>
+						用户具有的属性有：编号，用户名，姓名，密码，用户组，其中用户名是用户登录后台的用户名，姓名是其真实姓名
+					</li>
+					<li>
+						用户管理支持的功能包括：对用户的添加，修改，删除
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<a name="article"></a>
+		<div>
+			<div class="helptopic">
+				文章管理系统
+			</div>
+			<div>
+				<p class="stopic">
+					添加文章
+				</p>
+				<p class="stopicinfo">
+					添加文章是用来发表新文章或对原有的文章进行编辑的
+				</p>
+				<ul>
+					<li>
+						新建文章的时候，编辑器提供所见即所得的功能，同时支持在写文章的同时插入图片，视频，文档等功能
+					</li>
+				</ul>
+			</div>
+			<div>
+				<p class="stopic">
+					草稿箱
+				</p>
+				<p class="stopicinfo">
+					草稿箱是用来存放草稿的
+				</p>
+				<ul>
+					<li>
+						可以对草稿箱中的文章进行再次编辑或删除
+					</li>
+				</ul>
+			</div>
+			<div>
+				<p class="stopic">
+					回收站
+				</p>
+				<p class="stopicinfo">
+					回收站是用来存放没有被彻底删除的文章的
+				</p>
+				<ul>
+					<li>
+						可以对回收站中的文章进行还原，查看和彻底删除
+					</li>
+				</ul>
+			</div>
+			<div>
+				<p class="stopic">
+					文章管理
+				</p>
+				<p class="stopicinfo">
+					文章管理是用来管理已发表的文章的
+				</p>
+				<ul>
+					<li>
+						文章具有的属性有：编号，标题，作者，浏览次数，发表时间，分类
+					</li>
+					<li>
+						文章管理支持的功能包括：对文章的添加，修改，删除，并提供草稿，回收站机制
+					</li>
+				</ul>
+			</div>
+			<div>
+				<p class="stopic">
+					版块管理
+				</p>
+				<p class="stopicinfo">
+					版块管理是用来管理文章版块的
+				</p>
+				<ul>
+					<li>
+						版块具有有属性有：编号，主题，文章数量，其中文章数量是用来记录该片版块所拥有的文章数量的
+					</li>
+					<li>
+						版块管理支持的功能包括：对版块的添加，修改（版块的名称可以修改，文章数量不可修改），删除
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<a name="wish"></a>
+		<div>
+			<div class="helptopic">
+				寄语管理系统
+			</div>
+			<div>
+				<p class="stopic">
+					审核寄语
+				</p>
+				<p class="stopicinfo">
+					审核寄语是用来审核网友发表的寄语的，由于寄语的内容可能不太和谐，因而需要对寄语予以审核方能显示
+				</p>
+				<ul>
+					<li>
+						审核寄语支持的功能包括：对寄语的审核，删除
+					</li>
+				</ul>
+			</div>
+			<div>
+				<p class="stopic">
+					寄语管理
+				</p>
+				<p class="stopicinfo">
+					寄语管理是用来管理已通过审核的寄语的
+				</p>
+				<ul>
+					<li>
+						寄语具有的属性有：编号，作者，内容，发表时间，状态，状态为0代表未审核，为1代表审核通过
+					</li>
+					<li>
+						寄语管理支持的功能包括：对寄语的删除
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<a name="media"></a>
+		<div>
+			<div class="helptopic">
+				媒体管理系统
+			</div>
+			<div>
+				<p class="stopic">
+					图片管理
+				</p>
+				<p class="stopicinfo">
+					图片管理是用来管理图片的
+				</p>
+				<ul>
+					<li>
+						图片具有的属性有：编号，标题，格式，上传时间
+					</li>
+					<li>
+						图片管理支持的功能有：上传，预览，修改，删除
+					</li>
+				</ul>
+			</div>
+			<div>
+				<p class="stopic">
+					视频管理
+				</p>
+				<p class="stopicinfo">
+					视频管理是用来管理视频的
+				</p>
+				<ul>
+					<li>
+						视频具有的属性有：编号，标题，格式，上传时间
+					</li>
+					<li>
+						视频管理支持的功能有：上传，预览，修改，删除
+					</li>
+				</ul>
+			</div>
+			<div>
+				<p class="stopic">
+					文档管理
+				</p>
+				<p class="stopicinfo">
+					文档管理是用来管理文档的
+				</p>
+				<ul>
+					<li>
+						文档具有的属性有：编号，标题，格式，上传时间
+					</li>
+					<li>
+						视频管理支持的功能有：上传，修改，删除
+					</li>
+				</ul>
+			</div>
+			<div>
+				<p class="stopic">
+					媒体预览管理
+				</p>
+				<p class="stopicinfo">
+					媒体预览管理是用来管理图片新闻里的图片的
+				</p>
+				<ul>
+					<li>
+						媒体预览具有的属性有：编号，标题，所属文章
+					</li>
+					<li>
+						媒体预览管理支持的功能有：删除，测试，即测试该图片所对应的文章是否有效
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<a name="topic"></a>
+		<div>
+			<div class="helptopic">
+				专题管理系统
+			</div>
+			<div>
+				<p class="stopic">
+					添加专题
+				</p>
+				<p class="stopicinfo">
+					添加专题是用来添加专题或修改已有专题的
+				</p>
+				<ul>
+					<li>
+						添加专题同发表文章一样，在同一个编辑器里编辑
+					</li>
+				</ul>
+			</div>
+			<div>
+				<p class="stopic">
+					专题管理
+				</p>
+				<p class="stopicinfo">
+					专题管理是用来管理已有专题的
+				</p>
+				<ul>
+					<li>
+						专题具有的属性有：编号，测试标题，数量，参数人数
+					</li>
+					<li>
+						专题管理支持的功能有：查看，编辑，删除
+					</li>
+				</ul>
+			</div>
+			<div>
+				<p class="stopic">
+					测试管理
+				</p>
+				<p class="stopicinfo">
+					测试管理是用来管理专题对应的测试的
+				</p>
+				<ul>
+					<li>
+						测试具有的属性有：编号，所在专题编号，内容，人数，其中人数是指通过该项测试的人数
+					</li>
+					<li>
+						测试支持的功能有：删除，修改
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<a name="log"></a>
+		<div>
+			<div class="helptopic">
+				日志管理系统
+			</div>
+			<div>
+				<p class="stopic">
+					日志管理
+				</p>
+				<p class="stopicinfo">
+					日志管理是用来管理系统日志，日志是用来记录系统的维护过程的
+				</p>
+				<ul>
+					<li>
+						日志具有的属性有：编号，内容，作者，记录时间
+					</li>
+					<li>
+						日志管理支持的功能有：删除
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

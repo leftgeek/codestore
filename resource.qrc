@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/icon/file">
+        <file alias="file_close">resources/icons/file-quit.png</file>
+        <file alias="file_quit">resources/icons/file-quit.png</file>
+        <file alias="file_new">resources/icons/file-new.png</file>
+        <file alias="file_open">resources/icons/file-open.png</file>
+        <file alias="file_saveas">resources/icons/file-save-as.png</file>
+        <file alias="file_save">resources/icons/file-save.png</file>
+    </qresource>
+    <qresource prefix="/icon/edit">
+        <file alias="edit_copy">resources/icons/edit-copy.png</file>
+        <file alias="edit_cut">resources/icons/edit-cut.png</file>
+        <file alias="edit_paste">resources/icons/edit-paste.png</file>
+        <file alias="edit_redo">resources/icons/edit-redo.png</file>
+        <file alias="edit_undo">resources/icons/edit-undo.png</file>
+    </qresource>
+    <qresource prefix="/icon/text">
+        <file alias="text_plain">resources/icons/text-plain.png</file>
+        <file alias="text_c">resources/icons/text-c.png</file>
+        <file alias="text_cpp">resources/icons/text-cpp.png</file>
+        <file alias="text_csharp">resources/icons/text-csharp.png</file>
+        <file alias="text_java">resources/icons/text-java.png</file>
+        <file alias="text_html">resources/icons/text-html.png</file>
+        <file alias="folder">resources/icons/folder.png</file>
+    </qresource>
+    <qresource prefix="/icon/page">
+        <file alias="page_develop">resources/icons/page-develop.png</file>
+        <file alias="page_news">resources/icons/page-news.png</file>
+        <file alias="page_personalcenter">resources/icons/page-personalcenter.png</file>
+    </qresource>
+</RCC>
